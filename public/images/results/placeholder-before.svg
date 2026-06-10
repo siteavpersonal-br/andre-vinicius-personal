@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="533" viewBox="0 0 400 533">
+  <rect width="400" height="533" fill="#0a0a0a"/>
+  <rect x="40" y="60" width="320" height="413" rx="12" fill="#151515" stroke="#333333" stroke-width="1"/>
+  <text x="200" y="280" text-anchor="middle" fill="#555555" font-family="system-ui, sans-serif" font-size="16">Antes</text>
+</svg>

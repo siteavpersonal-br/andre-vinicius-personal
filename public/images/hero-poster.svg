@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#heroGrad)"/>
+  <circle cx="640" cy="360" r="80" fill="none" stroke="#39FF14" stroke-width="2" opacity="0.3"/>
+  <polygon points="620,320 620,400 680,360" fill="#39FF14" opacity="0.5"/>
+  <text x="640" y="500" text-anchor="middle" fill="#39FF14" font-family="system-ui, sans-serif" font-size="20" opacity="0.6">Adicione seu v�deo em /public/videos/</text>
+</svg>
