@@ -55,7 +55,7 @@ next-env.d.ts
 # misc
 *.pem
 
-# videos soltas na raiz (mover para public/videos/)
-*.mp4
-*.mov
-*.webm
+# videos soltos na raiz
+/*.mp4
+/*.mov
+/*.webm
