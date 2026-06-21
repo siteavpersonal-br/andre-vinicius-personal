@@ -50,7 +50,8 @@ export function Hero() {
                 className="h-full w-full object-contain"
                 poster="/images/hero-poster.svg"
               >
-                <source src={`${heroContent.videoSrc}?v=3`} type="video/mp4" />
+                <source src={`${heroContent.videoWebm}?v=4`} type="video/webm" />
+                <source src={`${heroContent.videoSrc}?v=4`} type="video/mp4" />
               </video>
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
               <div

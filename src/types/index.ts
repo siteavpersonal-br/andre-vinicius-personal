@@ -11,7 +11,6 @@ export interface Certification {
 export interface BeforeAfterResult {
   id: string;
   studentName: string;
-  duration: string;
   beforeImage: string;
   afterImage: string;
 }

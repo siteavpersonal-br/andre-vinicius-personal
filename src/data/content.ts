@@ -26,8 +26,8 @@ export const heroContent = {
   subtitle:
     "Treinos personalizados, acompanhamento próximo e resultados reais. Pare de adiar a melhor versão de você.",
   cta: "Quero começar agora",
-  videoSrc: "/videos/logo-video.mov",
-  videoWebm: "/videos/logo-video.mov",
+  videoSrc: "/videos/logo-video.mp4",
+  videoWebm: "/videos/logo-video.webm",
 };
 
 export const aboutContent = {
@@ -47,31 +47,27 @@ export const aboutContent = {
 export const results: BeforeAfterResult[] = [
   {
     id: "1",
-    studentName: "Carlos M.",
-    duration: "12 semanas",
-    beforeImage: "/images/results/placeholder-before.svg",
-    afterImage: "/images/results/placeholder-after.svg",
+    studentName: "Gustavo",
+    beforeImage: "/images/gustavo-antes.jpeg",
+    afterImage: "/images/gustavo-depois.jpeg",
   },
   {
     id: "2",
-    studentName: "Juliana R.",
-    duration: "16 semanas",
-    beforeImage: "/images/results/placeholder-before.svg",
-    afterImage: "/images/results/placeholder-after.svg",
+    studentName: "Manu",
+    beforeImage: "/images/manu-antes.jpeg",
+    afterImage: "/images/manu-depois.jpeg",
   },
   {
     id: "3",
-    studentName: "Rafael S.",
-    duration: "10 semanas",
-    beforeImage: "/images/results/placeholder-before.svg",
-    afterImage: "/images/results/placeholder-after.svg",
+    studentName: "Milton",
+    beforeImage: "/images/milton-antes.jpeg",
+    afterImage: "/images/milton-depois.jpeg",
   },
   {
     id: "4",
-    studentName: "Amanda L.",
-    duration: "14 semanas",
-    beforeImage: "/images/results/placeholder-before.svg",
-    afterImage: "/images/results/placeholder-after.svg",
+    studentName: "Ronny",
+    beforeImage: "/images/ronny-antes.jpeg",
+    afterImage: "/images/ronny-depois.jpeg",
   },
 ];
 
