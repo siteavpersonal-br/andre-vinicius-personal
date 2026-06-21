@@ -6,11 +6,15 @@ import type {
   SocialLink,
 } from "@/types";
 
+const whatsappNumber = "5583996765577";
+const whatsappMessage =
+  "Olá, André! Vim pelo seu site e quero transformar meu corpo com seu acompanhamento. Pode me contar como funciona o treino e os planos?";
+
 export const siteConfig = {
   name: "André Vinícius - Personal",
   tagline: "Transforme seu corpo. Eleve sua performance.",
-  whatsapp: "https://wa.me/5511999999999",
-  instagram: "https://instagram.com/andreviniciuspersonal",
+  whatsapp: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`,
+  instagram: "https://www.instagram.com/andrev_personal/",
 };
 
 export const navLinks: NavLink[] = [
